@@ -2,6 +2,9 @@
   text-align: center;
   padding: 30px;
   margin: 0px auto;
+  border: 3px solid gray;
+  border-radius: 20%;
+  width: 30%;
 }
 
 .details {
@@ -19,12 +22,3 @@ img {
   border-radius: 50%;
 }
 
-table,
-td {
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding: 10px;
-  border: 1px solid black;
-}
