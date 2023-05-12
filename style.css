@@ -12,6 +12,10 @@
   margin-right: auto;
 }
 
+.details:hover {
+  background-color: #ddd;
+}
+
 img {
   border: 2px solid #fff;
   -moz-box-shadow: 0px 6px 5px #ccc;
@@ -20,5 +24,19 @@ img {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.email a:hover,
+.phone a:hover {
+  text-decoration: underline;
+  color: #000;
 }
 
